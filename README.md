@@ -2,7 +2,8 @@ Cloudflare Workers/Pages 用量监控
 
 一个基于 Cloudflare Workers 开发的用量监控工具，可以实时监控多个 Cloudflare 账户的 Workers 和 Pages 服务请求使用情况。
 
-https://img.shields.io/badge/status-active-success https://img.shields.io/badge/license-MIT-blue
+[![Deploy with Vercel](https://img.shields.io/badge/status-active-success)
+[![Deploy with Vercel](https://img.shields.io/badge/license-MIT-blue)
 
 ✨ 功能特点
 
