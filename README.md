@@ -4,7 +4,7 @@ Cloudflare Workers/Pages 用量监控
 
 [![Deploy with Vercel](https://img.shields.io/badge/status-active-success)
 [![Deploy with Vercel](https://img.shields.io/badge/license-MIT-blue)
-[![Deploy with Vercel](https://re.zxz.us.kg/raw/s/IMG_0229.png)
+![img](./img.png)
 
 ✨ 功能特点
 
