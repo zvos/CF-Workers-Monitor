@@ -31,9 +31,7 @@ Cloudflare Workers/Pages 用量监控
 
 **·** Cloudflare 账户
 
-**·** Workers 权限
-
-**·** 需要监控的账户的 API 密钥
+**·** 账户的 API 密钥
 
 **部署步骤**
 
@@ -46,20 +44,18 @@ Cloudflare Workers/Pages 用量监控
    在 Cloudflare Workers 控制台中设置 EDGE 环境变量，格式如下：
    ```json
    [
-     {
-       "name": "账户1",
-       "email": "your-email1@example.com",
-       "key": "your-api-key1",
-       "accountId": "your-account-id1",
-       "total": 100000
-     },
-     {
-       "name": "账户2", 
-       "email": "your-email2@example.com",
-       "key": "your-api-key2",
-       "accountId": "your-account-id2",
-       "total": 100000
-     }
+ {
+    "name": "账户1",
+    "token": "这里填入新生成的API_Token",
+    "accountId": "bbafc15e1cf3cb679360302fc31ab519",
+    "total": 100000
+  },
+  {
+    "name": "账户2",
+    "token": "这里填入新生成的API_Token",
+    "accountId": "bbafc15e1cf3cb679360302fc31ab519",
+    "total": 100000
+  }
    多帐号以此类推……
    ]
    ```
@@ -74,17 +70,15 @@ Cloudflare Workers/Pages 用量监控
 ## ⚙️ 配置说明
 
 环境变量
-| 变量名 | 类型 | 必填 |
+| 变量名 | 类型 | 必须 |
 |--|--|--|
-|EDGE|密钥|必须|
+|EDGE|密钥|是|
 
 **API 密钥权限**
 
 确保 API 密钥具有以下权限：
 
 **·** Account Analytics: Read
-
-**·** Account Settings: Read
 
 ## 🎯 使用方法
 
@@ -97,16 +91,6 @@ Cloudflare Workers/Pages 用量监控
 **3.** 刷新数据：点击"刷新数据"按钮手动更新
 
 **4.** 主题切换：点击主题切换按钮切换亮色/暗色模式
-
-**API 接口**
-
-**·** GET / - 返回监控面板 HTML 页面
-
-**·** GET /?all=true - 返回所有账户的 JSON 数据
-
-**·** GET /?accountIndex=N - 返回指定账户的 JSON 数据
-
-**·** GET /?optimized=true - 返回优化后的缓存数据
 
 ## 📊 数据说明
 
@@ -148,7 +132,7 @@ Cloudflare Workers/Pages 用量监控
 
 ## 技术栈
 
-**·** 运行时：Cloudflare Workers
+**·** 运行时：Cloudflare Pages
 
 **·** 前端：原生 HTML/CSS/JavaScript
 
@@ -188,34 +172,6 @@ const ttl = 2 * 60 * 1000; // 2分钟
 const maxRetries = 2;
 const retryDelay = 1000;
 ```
-
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-**1.** Fork 本项目
-
-**2.** 创建功能分支 (git checkout -b feature/AmazingFeature)
-
-**3.** 提交更改 (git commit -m 'Add some AmazingFeature')
-
-**4.** 推送到分支 (git push origin feature/AmazingFeature)
-
-**5.** 开启 Pull Request
-
-## 📝 更新日志
-
-**v1.0.0**
-
-**·** ✅ 多账户监控支持
-
-**·** ✅ 实时数据展示
-
-**·** ✅ 主题切换功能
-
-**·** ✅ 并发查询优化
-
-**·** ✅ 自动刷新机制
 
 ## ⚠️ 注意事项
 
