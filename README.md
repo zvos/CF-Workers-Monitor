@@ -41,7 +41,7 @@ Cloudflare Workers/Pages 用量监控
    cd workers-usage-monitor
    ```
 **2.** 配置与环境变量
-   Pages部署构建输出目录为 public
+   Pages部署构建输出目录为 ```public```
    在 Cloudflare Workers 控制台中设置 EDGE 环境变量，格式如下：
    ```json
    [
