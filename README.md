@@ -140,23 +140,6 @@ Cloudflare Workers/Pages 用量监控
 
 **·** 部署：Cloudflare 边缘网络
 
-## 🛠️ 开发指南
-
-本地开发
-
-1. 安装 Wrangler CLI：
-   ```bash
-   npm install -g wrangler
-   ```
-2. 登录 Cloudflare：
-   ```bash
-   wrangler login
-   ```
-3. 本地测试：
-   ```bash
-   wrangler dev
-   ```
-
 自定义配置
 
 修改代码中的常量来调整行为：
