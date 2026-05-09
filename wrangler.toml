@@ -1,6 +1,6 @@
-name = "cf-workers-monitor"
+name = "usage-monitor"
 main = "worker.js"
-compatibility_date = "2024-01-01"
-
-[vars]
-EDGE = ""
+compatibility_date = "2024-08-01"
+[[rules]]
+type = "Text"
+globs = ["public/**/*"]
