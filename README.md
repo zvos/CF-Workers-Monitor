@@ -46,14 +46,14 @@ Cloudflare Workers/Pages 用量监控
    [
  {
     "name": "账户1",
-    "token": "这里填入新生成的API_Token",
-    "accountId": "bbafc15e1cf3cb679360302fc31ab519",
+    "token": "这里填入API_Token",
+    "accountId": "账号ID",
     "total": 100000
   },
   {
     "name": "账户2",
-    "token": "这里填入新生成的API_Token",
-    "accountId": "bbafc15e1cf3cb679360302fc31ab519",
+    "token": "这里填入API_Token",
+    "accountId": "账号ID",
     "total": 100000
   }
    多帐号以此类推……
