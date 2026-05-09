@@ -1,4 +1,4 @@
-name = "usage-monitor"
+name = "cf-workers-monitor"
 main = "worker.js"
 compatibility_date = "2024-08-01"
 [[rules]]
