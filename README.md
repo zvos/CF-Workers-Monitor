@@ -46,6 +46,9 @@ Cloudflare Workers/Pages 用量监控
    ```
 **2.** 配置与环境变量
    选择Pages部署，构建输出目录为 ```public```
+
+![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0058.jpeg)
+
    在 Cloudflare Pages 控制台中设置 EDGE 环境变量，格式如下：
    ```json
    [
