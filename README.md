@@ -29,11 +29,11 @@ Cloudflare Workers/Pages 用量监控
 
 **前提条件**
 
-**·** Cloudflare 账户ID
+**1** Cloudflare 账户ID
 
 ![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0056.jpeg)
 
-**·** 账户的 API 密钥
+**2** Cloudflare账户API密钥
 
 ![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0057.jpeg)
 
@@ -45,8 +45,8 @@ Cloudflare Workers/Pages 用量监控
    cd workers-usage-monitor
    ```
 **2.** 配置与环境变量
-   Pages部署构建输出目录为 ```public```
-   在 Cloudflare Workers 控制台中设置 EDGE 环境变量，格式如下：
+   选择Pages部署，构建输出目录为 ```public```
+   在 Cloudflare Pages 控制台中设置 EDGE 环境变量，格式如下：
    ```json
    [
  {
