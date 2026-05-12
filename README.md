@@ -50,15 +50,15 @@ Cloudflare Workers/Pages 用量监控
    ```json
    [
  {
-    "name": "账户1",
-    "token": "这里填入API_Token",
-    "accountId": "账号ID",
+    "name": "这里名称随意,例如:账户1",
+    "token": "Cloudflare账户API密钥",
+    "accountId": "Cloudflare 账户ID",
     "total": 100000
   },
   {
-    "name": "账户2",
-    "token": "这里填入API_Token",
-    "accountId": "账号ID",
+    "name": "这里名称随意,例如:账户2",
+    "token": "Cloudflare账户API密钥",
+    "accountId": "Cloudflare 账户ID",
     "total": 100000
   }
    多帐号以此类推……
