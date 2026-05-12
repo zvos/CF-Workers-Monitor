@@ -64,13 +64,8 @@ Cloudflare Workers/Pages 用量监控
    多帐号以此类推……
    ]
    ```
-**3.** 部署 Worker
-   将 worker.js 文件内容复制到 Cloudflare Workers 编辑器中，或使用 Wrangler CLI 部署：
-   ```bash
-   wrangler deploy
-   ```
 **4.** 访问监控面板
-   打开 Worker 的 URL 即可访问监控面板。
+   打开 Pages 的 URL 即可访问监控面板。
 
 ## ⚙️ 配置说明
 
