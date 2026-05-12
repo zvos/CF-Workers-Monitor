@@ -45,6 +45,7 @@ Cloudflare Workers/Pages 用量监控
    cd workers-usage-monitor
    ```
 **2.** 配置与环境变量
+
    选择Pages部署，构建输出目录为 ```public```
 
 ![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0058.jpeg)
