@@ -29,9 +29,11 @@ Cloudflare Workers/Pages 用量监控
 
 **前提条件**
 
-**·** Cloudflare 账户
+**·** Cloudflare 账户ID
+[![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0056.jpeg)
 
 **·** 账户的 API 密钥
+[![Deploy with Vercel](https://zru.qzz.io/raw/z/IMG_0057.jpeg)
 
 **部署步骤**
 
